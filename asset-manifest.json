@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deploy-react-DoguPortfolio/static/css/main.503a5ba8.chunk.css",
-    "main.js": "/deploy-react-DoguPortfolio/static/js/main.d89916e6.chunk.js",
-    "main.js.map": "/deploy-react-DoguPortfolio/static/js/main.d89916e6.chunk.js.map",
+    "main.js": "/deploy-react-DoguPortfolio/static/js/main.a4494f21.chunk.js",
+    "main.js.map": "/deploy-react-DoguPortfolio/static/js/main.a4494f21.chunk.js.map",
     "runtime-main.js": "/deploy-react-DoguPortfolio/static/js/runtime-main.5ad29462.js",
     "runtime-main.js.map": "/deploy-react-DoguPortfolio/static/js/runtime-main.5ad29462.js.map",
     "static/js/2.689d62f3.chunk.js": "/deploy-react-DoguPortfolio/static/js/2.689d62f3.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5ad29462.js",
     "static/js/2.689d62f3.chunk.js",
     "static/css/main.503a5ba8.chunk.css",
-    "static/js/main.d89916e6.chunk.js"
+    "static/js/main.a4494f21.chunk.js"
   ]
 }
