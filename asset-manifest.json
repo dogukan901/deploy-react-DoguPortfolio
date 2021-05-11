@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/deploy-react-DoguPortfolio/static/css/main.ca8b85f7.chunk.css",
-    "main.js": "/deploy-react-DoguPortfolio/static/js/main.4715ede9.chunk.js",
-    "main.js.map": "/deploy-react-DoguPortfolio/static/js/main.4715ede9.chunk.js.map",
+    "main.css": "/deploy-react-DoguPortfolio/static/css/main.64792358.chunk.css",
+    "main.js": "/deploy-react-DoguPortfolio/static/js/main.5913304a.chunk.js",
+    "main.js.map": "/deploy-react-DoguPortfolio/static/js/main.5913304a.chunk.js.map",
     "runtime-main.js": "/deploy-react-DoguPortfolio/static/js/runtime-main.5ad29462.js",
     "runtime-main.js.map": "/deploy-react-DoguPortfolio/static/js/runtime-main.5ad29462.js.map",
     "static/js/2.689d62f3.chunk.js": "/deploy-react-DoguPortfolio/static/js/2.689d62f3.chunk.js",
     "static/js/2.689d62f3.chunk.js.map": "/deploy-react-DoguPortfolio/static/js/2.689d62f3.chunk.js.map",
     "index.html": "/deploy-react-DoguPortfolio/index.html",
-    "static/css/main.ca8b85f7.chunk.css.map": "/deploy-react-DoguPortfolio/static/css/main.ca8b85f7.chunk.css.map",
+    "static/css/main.64792358.chunk.css.map": "/deploy-react-DoguPortfolio/static/css/main.64792358.chunk.css.map",
     "static/js/2.689d62f3.chunk.js.LICENSE.txt": "/deploy-react-DoguPortfolio/static/js/2.689d62f3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/deploy-react-DoguPortfolio/static/media/img-1.53f48437.jpg",
     "static/media/img-2.jpg": "/deploy-react-DoguPortfolio/static/media/img-2.bb238fc1.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ad29462.js",
     "static/js/2.689d62f3.chunk.js",
-    "static/css/main.ca8b85f7.chunk.css",
-    "static/js/main.4715ede9.chunk.js"
+    "static/css/main.64792358.chunk.css",
+    "static/js/main.5913304a.chunk.js"
   ]
 }
