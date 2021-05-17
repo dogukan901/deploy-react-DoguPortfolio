@@ -65,44 +65,27 @@ function Footer() {
                     </div>
                     <small className="website-rights">©2021 Dogukan Okcu <br />All Rights Reserved</small>
                     <div className="social-icons">
-                        <Link className="social-icon-link facebook"
-                            to='/'
-
-                            aria-label="Facebook"
-                        >
+                        <a href="/" class='social-icon-link facebook' target='_blank' aria-label='Facebook'>
                             <i className="fab fa-facebook-f" />
-                        </Link>
-                        <Link className="social-icon-link instagram"
-                            to={{ pathname: "https://www.instagram.com/btt_do/" }}
-                            target="_blank"
-                            aria-label="Instagram"
-                        >
+                        </a>
+                        <a href="https://www.instagram.com/btt_do/" class='social-icon-link instagram' target='_blank' aria-label='Instagram'>
                             <i className="fab fa-instagram" />
-                        </Link>
-                        <Link
-                            class='social-icon-link youtube'
-                            to={{ pathname: "https://www.youtube.com/channel/UCgrnkJYGUwDeGI_9ptHp6Iw" }}
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCgrnkJYGUwDeGI_9ptHp6Iw" class='social-icon-link youtube' target='_blank' aria-label='Youtube'>
                             <i class='fab fa-youtube' />
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to={{ pathname: "https://twitter.com/Render4Me" }}
-                            target='_blank'
-                            aria-label='Twitter'
-                        >
+                        </a>
+                        <a href="https://twitter.com/Render4Me" class='social-icon-link twitter' target='_blank' aria-label='Twitter'>
                             <i class='fab fa-twitter' />
-                        </Link>
-                        <Link
-                            class='social-icon-link linkedin'
-                            to={{ pathname: "https://www.linkedin.com/in/doğukan-okçu-a76bb0110/" }}
-                            target='_blank'
-                            aria-label='LinkedIn'
-                        >
+                        </a>
+                        <a href="https://www.linkedin.com/in/doğukan-okçu-a76bb0110/" class='social-icon-link linkedin' target='_blank' aria-label='LinkedIn'>
                             <i class='fab fa-linkedin' />
-                        </Link>
+                        </a>
+                        <a href="https://github.com/dogukan901" class='social-icon-link github' target='_blank' aria-label='Github'>
+                            <i class="fab fa-github" />
+                        </a>
+                        <a href="https://stackoverflow.com/users/14962648/render4me" class='social-icon-link stackoverflow' target='_blank' aria-label='stackoverflow'>
+                            <i class="fab fa-stack-overflow" />
+                        </a>
                     </div>
                 </div>
             </section>

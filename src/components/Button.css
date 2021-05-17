@@ -10,6 +10,29 @@
   cursor: pointer;
 }
 
+.btn--special {
+  background-color: transparent;
+  color: #fff;
+  border: none !important;
+  transition: all 0.3s ease-out;
+  -moz-animation: 2s bounce ease infinite;
+  -webkit-animation: 2s bounce ease infinite;
+  animation: 2s bounce ease infinite;
+  /*animation-duration: 700;*/
+}
+
+.btn--special:hover {
+  background-color: transparent !important;
+  border: none !important;
+  color: #777 !important;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(15px);
+  }
+}
+
 .btn--primary {
   background-color: var(--primary);
   color: #242424;
@@ -39,4 +62,8 @@
   background: #fff;
   color: #242424;
   transition: all 0.3s ease-out;
+}
+.sha {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 4px 3px rgba(0, 0, 0, 0.1),
+    0px 4px 3px rgba(0, 0, 0, 0.1);
 }

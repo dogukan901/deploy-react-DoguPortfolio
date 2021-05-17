@@ -4,8 +4,8 @@ import './Cards.css'
 
 function Cards() {
     return (
-        <div className='cards'>
-            <h1>PERSONAL PROJECTS</h1>
+        <div className='cards' id='cards'>
+            <h1>MY PROJECTS</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -20,6 +20,18 @@ function Cards() {
                             text='Travel Through the Islands Of Salda in a private cruise'
                             label='Luxury'
                             path='/services' />
+                        <CardItem
+                            src={require('../images/img-8.jpg').default}
+                            text='Ride through the Sahara Desert on a guided camel tour'
+                            label='Adrenaline'
+                            path='/about'
+                        />
+                        <CardItem
+                            src={require('../images/img-8.jpg').default}
+                            text='Ride through the Sahara Desert on a guided camel tour'
+                            label='Adrenaline'
+                            path='/about'
+                        />
                     </ul>
                     <ul className="cards__items">
                         <CardItem
@@ -33,6 +45,12 @@ function Cards() {
                             text='Experience Football on Top of the Himilayan Mountains'
                             label='Adventure'
                             path='/products'
+                        />
+                        <CardItem
+                            src={require('../images/img-8.jpg').default}
+                            text='Ride through the Sahara Desert on a guided camel tour'
+                            label='Adrenaline'
+                            path='/about'
                         />
                         <CardItem
                             src={require('../images/img-8.jpg').default}

@@ -48,7 +48,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                References
               </Link>
             </li>
             <li className="nav-item">
