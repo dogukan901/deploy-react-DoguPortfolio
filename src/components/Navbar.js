@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import './Navbar.css'
-
+import mightycoder from '../assets/mightycoder.svg'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -31,8 +31,9 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i className="fab fa-typo3" /> Dogukan Okcu
+            < img src={mightycoder} alt="avatar" className="sidebar_avatar" />
           </Link>
+          <Link to='/' className='Developer-title'><p >Dogukan Okcu</p></Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

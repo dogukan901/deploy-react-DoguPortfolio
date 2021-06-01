@@ -115,9 +115,10 @@
 
   .navbar-logo {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     left: 0;
-    transform: translate(25%, 50%);
+    /* transform: translate(25%, 50%); */
+    margin-left: 5px;
   }
 
   .menu-icon {
@@ -155,4 +156,20 @@
     color: #242424;
     transition: 250ms;
   }
+}
+
+.sidebar_avatar {
+  height: 100px;
+  width: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.Developer-title {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  align-items: center;
 }

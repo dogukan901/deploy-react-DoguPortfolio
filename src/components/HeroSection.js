@@ -13,7 +13,7 @@ function HeroSection() {
     useEffect(() => {
         init(textRef.current,
             {
-                showCursor: false, strings: ['A Full Stack Developer', 'A Part Time Software Eng.', 'And A Lifetime Learner'],
+                showCursor: true, strings: ['A Full Stack Developer', 'A Part Time Software Eng. And', 'A Lifetime Learner'],
                 backDelay: 1500,
             });
         console.log(textRef);
