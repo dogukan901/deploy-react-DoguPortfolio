@@ -2,7 +2,7 @@
   "name": "react-app-dogukan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dogukan901.github.io/deploy-react-DoguPortfolio",
+  "homepage": "http://dogukan901.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
